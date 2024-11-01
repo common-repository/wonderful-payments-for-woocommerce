@@ -1,0 +1,49 @@
+*** Wonderful Payments for WooCommerce Changelog ***
+
+2024-08-26 - version 0.7
+* Updated to support WordPress 6.6. Addresses an issue where the shortcode checkout would sometimes redirect to NatWest bank when another bank was selected.
+
+2024-05-24 - version 0.6.2
+* Updated latest stable version.
+
+2024-05-24 - version 0.6.1
+* Bugfix where some files were not checked in correctly.
+
+2024-05-24 - version 0.6
+* Significant changes to support WordPress 6.5. Orders are now synced with the One Merchant Dashboard. Refunds now supported via the Merchant Dashboard.
+
+2024-02-23 - version 0.5.5
+* Updated stable version
+
+2024-02-23 - version 0.5.4
+* Bug fix. Addresses reported issues for users running PHP 8.2
+
+2024-01-25 - version 0.5.3
+* Bug fix. Supported Banks list is now correctly populated only when the checkout page is rendered.
+
+2024-01-18 - version 0.5.2
+* Bug fix. Alignment issues on desktop viewport.
+
+2024-01-18 - version 0.5.1
+* Bug fix. Addresses issue where supported bank list was not populated, and alignment issues.
+
+2024-01-15 - version 0.5
+* Bank selector. You can now select your bank at the checkout. This will allow customers to see if their bank is supported before checking out.
+
+2023-10-19 - version 0.4.2
+* Updated readme
+
+2023-10-09 - version 0.4.1
+* Readme updated to reflect new billing model. Account plans are now billed directly by Wonderful Payments Ltd.
+
+2023-09-21 - version 0.4
+* Updated API endpoints and SSL verification
+
+2023-09-19 - version 0.3
+* Confirmed compatibility with WordPress 6.3
+
+2023-06-29 - version 0.2
+* We now send the plugin version to our servers when initiating a payment request. This allows us to provide better technical support for merchants.
+
+2023-06-22 - version 0.1
+* Initial Release
